@@ -1,15 +1,15 @@
 {
-    "name":"Template plugins",
-    "description": "Custom templates plugins",
+    "name": "template-plugins",
+    "description": "Custom templates plugin",
     "version": "1.0.0",
-    "author": "parbhat",
-    "repository": "https://github.com/ParbhatKataria/monokle-template-plugin.git",
-    "monoklePlugins":{
-        "modules":[
-            {
-                "type": "template",
-                "path": "basic-pod-template"
-            }
-        ]
+    "author": "YOUR_NAME",
+    "repository": "https://github.com/ParbhatKataria/monokle-template-plugin",
+    "monoklePlugin": {
+      "modules": [
+        {
+          "type": "template",
+          "path": "basic-pod-template"
+        }
+      ]
     }
-}
+  }
